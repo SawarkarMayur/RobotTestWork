@@ -1,0 +1,7 @@
+datasources:9e76bf68ef53ff6ac87965684ba9a659c49fefc2
+commandlineoptions:a81ffceb123ad03df253347391d6f8b4e39933ea
+suitesfrom:no-suites-from-option
+file:cba1a4fb8da48750ff6ce2f5356c376b13a34f44
+--suite Scripts.Homepage
+--suite Scripts.Login
+--suite Scripts.Welcome

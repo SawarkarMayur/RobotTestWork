@@ -1,0 +1,3 @@
+*** Variables ***
+
+${titletxt}   Online Shopping site in India

@@ -1,0 +1,18 @@
+==============================================================================
+Scripts                                                                       
+==============================================================================
+Scripts.Homepage :: Homepage Test Cases Using Robot and Selenium Library      
+==============================================================================
+TC-01 Validate Homepage launch successfully :: This is a test case... | PASS |
+------------------------------------------------------------------------------
+TC-02 Search in required item                                         | PASS |
+------------------------------------------------------------------------------
+Scripts.Homepage :: Homepage Test Cases Using Robot and Selenium L... | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Scripts                                                               | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Output:  C:\Users\masaw\PycharmProjects\RobotAuto\zParallelresult\pabot_results\0\output.xml

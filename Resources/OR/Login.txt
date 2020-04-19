@@ -1,0 +1,9 @@
+*** Variables ***
+
+${loginheader}          //h1[contains(text(),'Login')]
+${email_box}            ap_email
+${pwd_box}              ap_password
+${continue_btn}         continue
+${login_btn}            signInSubmit
+${pwd_incorrect}        //h4[contains(text(),'There was a problem')]
+${createAcc_btn}        createAccountSubmit

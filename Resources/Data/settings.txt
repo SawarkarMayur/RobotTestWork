@@ -1,0 +1,17 @@
+*** Variables ***
+${browser}   chrome
+${url}       https://www.amazon.in/
+
+
+${apk}       ${CURDIR}/
+${hub}       http://localhost:4723/wd/hub
+
+${dev}       Emulator
+${os}        Android
+${ver}		 9
+
+${pkg}       com.google.android.apps.messaging
+${aapt}             C:/Users/masaw/AppData/Local/Android/Sdk/build-tools/29.0.2/aapt
+${launchactivity}    com.google.android.apps.messaging.ui.ConversationListActivity
+${relaunchactivity}  com..ui.LoginActivity
+

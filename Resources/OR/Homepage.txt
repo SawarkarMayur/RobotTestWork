@@ -1,0 +1,5 @@
+*** Variables ***
+${menu}              nav-hamburger-menu
+${Health}            //*/div[1]/h2[contains(text(),'Health')]
+${Searchtxtbox}      twotabsearchtextbox
+${mSignin}           hmenu-customer-name
