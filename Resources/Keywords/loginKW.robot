@@ -26,8 +26,8 @@ Login with Invalid user
     Capture Page Screenshot
 
 Navigate to create account page
-    Page Should Contain Element  ${createAcc_btn}
-    click element      ${createAcc_btn}
+    ${IsButton}=  Run Keyword And Return Status  page should contain element  ${createAcc_btn}
+    Run Keyword If  ${IsButton}  click element   ${createAcc_btn}
     Wait Until Page Contains Element    ${pwd_box}   5
     Page Should Contain  Create Account
 
