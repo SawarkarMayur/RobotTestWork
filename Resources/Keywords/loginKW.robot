@@ -31,5 +31,9 @@ Navigate to create account page
     Wait Until Page Contains Element    ${pwd_box}   5
     Page Should Contain  Create Account
 
-
+Check for element exists
+     :FOR  ${i}  IN RANGE  1  5
+    \   ${is_element}=  Run Keyword And Return Status  page should contain an element  ${Searchtxtbox}
+    \   run keyword if  '${is_element}' == 'True'  click element  ${Searchtxtbox}
+    \   exit for loop if  '${is_element}' == 'False'
 
